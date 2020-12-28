@@ -2,8 +2,8 @@
 SpringBoot集成JWT实现token验证
 此工程有以下知识点：
 - 1 定义注解
-    - a PassToken 方法级注解，此注解可以使得某个请求跳过tokan验证
-    - b UserLoginToken 方法级注解，在方法上标注这个注解时，表示访问这个方法时必须进行token验证
+    -  PassToken 方法级注解，此注解可以使得某个请求跳过tokan验证
+    -  UserLoginToken 方法级注解，在方法上标注这个注解时，表示访问这个方法时必须进行token验证
     
 - 2 定义AuthenticationInterceptor拦截器
     - 判断当前方法是否需要被拦截
